@@ -10,7 +10,7 @@ app.use("/users", require("./routes/userroute"));
 
 // Tambahkan route untuk menampilkan "Hello World"
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Hello Fadhil Surya Buana");
 });
 
 app.listen(port, () => console.log(`Server running on http://localhost:${port}`));
